@@ -1,12 +1,21 @@
-/* I’m not sure what to use the first 32 chars for as of yet. I’m not working in V, so I will likely have to convert it to sending command code to Bash or ZSH, but that would have to require some sort of custom training to get that working, and that and will require some thought.
+/* I’m not sure what to use the first 32 chars for as of yet. I’m not working in V, so I will likely 
+have to convert it to sending command code to Bash or ZSH, but that would have to require some sort of 
+custom training to get that working, and that and will require some thought.
 
-I decided to build this so we can establish a lowest common denominator for a databases for ML libraries to be built on for those of use not equipped with a billion dollars worth of server room, and wanting to building something that all operating systems can use. (OpenBSD, looking at you.)
+I decided to build this so we can establish a lowest common denominator for a databases for ML libraries 
+to be built on for those of use not equipped with a billion dollars worth of server room, and wanting 
+to building something that all operating systems can use. (OpenBSD, looking at you.)
 
-I chose this set of ASCII, because you can basically write the entirety of the open source world using this character set and C. You can even write most of Julia and Python in it as well, so it fits my personal needs.
+I chose this set of ASCII, because you can basically write the entirety of the open source world 
+using this character set and C. You can even write most of Julia and Python in it as well, so it fits my personal needs.
 
-This is the seven bit binary table compiled with the ASCII character in a text format for an easy strip and build. I will update this at a later date when I have more than just a lookup table done, which I already have a C library built that does the cross conversion for the later part of this dataset. I will update this page with that binary later.
+This is the seven bit binary table compiled with the ASCII character in a text format for an 
+easy strip and build. I will update this at a later date when I have more than just a lookup table 
+done, which I already have a C library built that does the cross conversion for the later part of this 
+dataset. I will update this page with that binary later.
 
-Long term, I intend to build an entire command module that will be used to direct models and it will be used to apply this lookup table. I’m not going into specifics about this at this point.*/
+Long term, I intend to build an entire command module that will be used to direct models and it 
+will be used to apply this lookup table. I’m not going into specifics about this at this point.*/
 
 
 
